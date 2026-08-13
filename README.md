@@ -34,6 +34,25 @@ YTYoink is a Windows app that turns YouTube videos into clean, properly tagged a
 
 Nothing else to configure. Pick a save folder once (pointing it at iTunes' "Automatically Add to iTunes" folder is a popular choice) and start yoinking.
 
+## How to use
+
+The everyday flow is three clicks:
+
+1. **Paste a YouTube link** in the URL box (or hit **SearchYT** and find the song by name, then click a result).
+2. **Hit Fetch Info.** The app pulls the video, matches the song on iTunes, and fills in title, artist, album, year, genre, and artwork. Look it over:
+   - Wrong song or album? Click **Wrong match?** and pick the right one, or refine the search with artist, album, and year filters.
+   - Want different cover art? Click one of the artwork tiles: **iTunes**, **YouTube**, **Custom** (browse, Ctrl+V paste, or drag an image in), or **None**. Hover a tile to see it enlarged.
+   - Want to change a field by hand? Tick the checkbox next to it and type your own value.
+3. **Hit Download.** The tagged audio file lands in your Save to folder. Done.
+
+Worth knowing:
+
+- An orange **!** next to the video title means you already downloaded this one before. Hover it to see when.
+- **Turbo** (top right) skips all the metadata work and just grabs the audio as fast as possible.
+- **History** shows everything you have downloaded, newest first.
+- The **gear icon** opens settings: output format (M4A, MP3, Opus), preferred metadata and artwork source, and playlist behavior.
+- Pasting a playlist link (with playlist asking enabled in settings) pops a checklist so you pick exactly which videos to grab, with a search box and a review-each-one mode for per-song metadata control.
+
 ## Updates
 
 YTYoink keeps itself current. Every launch it checks this page for a new version, shows a small progress window if one is found, and relaunches itself updated. It also keeps yt-dlp fresh automatically, which matters because YouTube changes constantly and stale downloaders break.
