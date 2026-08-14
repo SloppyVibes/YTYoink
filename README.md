@@ -82,6 +82,15 @@ YTYoink is glue around some excellent open source software and public services. 
 | [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/) | song metadata and artwork | Apple public API |
 | [Poppins](https://fonts.google.com/specimen/Poppins) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue) | bundled fonts | SIL OFL 1.1 |
 
+## Safety and verification
+
+We take the "random exe from the internet" problem seriously. What you can check:
+
+- **SHA-256 checksums** are published in every release's notes. After downloading, run `certutil -hashfile YTYoink_setup.exe SHA256` in a terminal and compare: a match proves your file is byte-for-byte the one we built and uploaded.
+- **Scan it yourself.** Upload the installer to [VirusTotal](https://www.virustotal.com) to check it against ~70 antivirus engines before running it. We encourage it.
+- **One source of truth.** The only official download location is this repository's Releases page, and the app only ever updates itself from here over HTTPS. If you got YTYoink anywhere else, do not run it.
+- **Why SmartScreen still warns:** the app is not code-signed (publisher certificates are an ongoing cost that does not make sense for a small free tool yet). SmartScreen flags unsigned software by default regardless of its behavior. The checksums and scans above are the compensating transparency.
+
 ## Notes
 
 - This repository hosts releases only. There is no source code here.
