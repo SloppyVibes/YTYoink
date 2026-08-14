@@ -88,6 +88,7 @@ We take the "random exe from the internet" problem seriously. What you can check
 
 - **SHA-256 checksums** are published in every release's notes. After downloading, run `certutil -hashfile YTYoink_setup.exe SHA256` in a terminal and compare: a match proves your file is byte-for-byte the one we built and uploaded.
 - **Every release is scanned on VirusTotal.** Each build is uploaded to [VirusTotal](https://www.virustotal.com) at release time and checked against ~70 antivirus engines; the scan report links are in every release's notes. You are welcome to re-upload and verify yourself.
+- **About the few detections you may see there:** a handful of machine-learning heuristic engines (and occasionally Defender's cloud model, as generic "Wacatac!ml") flag unsigned Python-packaged apps on pattern alone. It is a well-documented false-positive class: the overwhelming majority of engines, including Kaspersky, BitDefender, ESET, Avast, Sophos, and Malwarebytes, rate every release clean. We file false-positive reports with vendors that misflag.
 - **One source of truth.** The only official download location is this repository's Releases page, and the app only ever updates itself from here over HTTPS. If you got YTYoink anywhere else, do not run it.
 - **Why SmartScreen still warns:** the app is not code-signed (publisher certificates are an ongoing cost that does not make sense for a small free tool yet). SmartScreen flags unsigned software by default regardless of its behavior. The checksums and scans above are the compensating transparency.
 
