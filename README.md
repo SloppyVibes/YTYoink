@@ -23,7 +23,7 @@ YTYoink is a Windows app that turns YouTube videos into clean, properly tagged a
 
 ## Installation
 
-1. Download **YTYoink_setup.exe** from the [latest release](../../releases/latest).
+1. Download **YTYoink_setup.exe** from the [latest release](../../releases/latest). Ignore the other files on the release page (`YTYoink.exe`, `YTYoink_full.zip`): those are downloaded automatically by the installer and the auto-updater, never by you.
 2. Run it. Windows SmartScreen may warn you because the app is not code-signed (certificates cost money and this is a small personal project). Click **More info**, then **Run anyway**.
 3. Approve the administrator prompt. The app installs to Program Files.
 4. The setup then does everything on its own, and tells you what it is doing at each step:
