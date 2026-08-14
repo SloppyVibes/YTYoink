@@ -40,7 +40,10 @@ The everyday flow is three clicks:
 
 1. **Paste a YouTube link** in the URL box (or hit **SearchYT** and find the song by name, then click a result).
 2. **Hit Fetch Info.** The app pulls the video, matches the song on iTunes, and fills in title, artist, album, year, genre, and artwork. Look it over:
-   - Wrong song or album? Click **Wrong match?** and pick the right one, or refine the search with artist, album, and year filters.
+   - Wrong song or album? Click **Wrong match?** and pick the right one, or refine the search with artist, album, and year filters:
+
+   <p align="center"><img src="assets/shot_match.png" alt="Choose iTunes match popup with search, filters, and candidate list" width="620"></p>
+
    - Want different cover art? Click one of the artwork tiles: **iTunes**, **YouTube**, **Custom** (browse, Ctrl+V paste, or drag an image in), or **None**. Hover a tile to see it enlarged.
    - Want to change a field by hand? Tick the checkbox next to it and type your own value.
 3. **Hit Download.** The tagged audio file lands in your Save to folder. Done.
