@@ -3,11 +3,11 @@
 # YTYoink
 
 <p align="center">
-<img alt="100% AI coded" src="https://img.shields.io/badge/100%25_AI_coded-Claude-7c5cff?style=for-the-badge">
+<img alt="100% AI coded" src="https://img.shields.io/badge/100%25-AI_coded-7c5cff?style=for-the-badge">
 <img alt="Windows" src="https://img.shields.io/badge/platform-Windows-2ea44f?style=for-the-badge">
 </p>
 
-**Every line of this app was written by AI** (Anthropic's Claude), with a human directing, testing, and approving each release. That goes for all SloppyVibes projects: 100% AI coded, human steered.
+**Every line of this app was written by AI**, with a human directing, testing, and approving each release. That goes for all SloppyVibes projects: 100% AI coded, human steered.
 
 YTYoink is a Windows app that turns YouTube videos into clean, properly tagged audio files, ready for iTunes, your phone, or any music library. Paste a link or search right inside the app, and it handles the rest: downloading, converting, matching real metadata from the iTunes catalog, and embedding cover art.
 
