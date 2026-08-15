@@ -58,7 +58,8 @@ Nothing else to configure. Pick a save folder once (pointing it at iTunes' "Auto
 
 The everyday flow is three clicks:
 
-1. **Paste a YouTube link** in the URL box (or hit **SearchYT** and find the song by name, then click a result). Even easier: copy a YouTube link anywhere, then just click the empty URL box, and the link **pastes itself and starts fetching automatically**. It never overwrites something already typed in the box.
+1. **Paste a YouTube link** in the URL box (or hit **SearchYT** and find the song by name, then click a result). Even easier: copy a YouTube link anywhere and just bring YTYoink to the front (or click the URL box), and the link **pastes itself and starts fetching automatically**. After a download finishes you do not even need to clear the box: the next fresh link you copy takes its place. A link you are still working with (fetched but not yet downloaded) is never overwritten.
+   - Prefer to stay in control? Untick **Auto fetch pasted links** in settings (gear icon, Clipboard section): links still paste themselves, but nothing fetches until you click **Fetch Info**.
    - One exception: for the first moments after launch, while the status bar still says it is checking dependencies, fetching waits. If you jump in that fast, the app tells you it is still checking; once the status bar says **Ready.**, click **Fetch Info** and carry on.
 2. **Hit Fetch Info.** The app pulls the video, matches the song on iTunes, and fills in title, artist, album, year, genre, and artwork. Look it over:
    - Wrong song or album? Click **Wrong match?** and pick the right one, or refine the search with artist, album, and year filters:
@@ -74,7 +75,7 @@ Worth knowing:
 - An orange **!** next to the video title means you already downloaded this one before. Hover it to see when.
 - **Turbo** (top right) skips all the metadata work and just grabs the audio as fast as possible.
 - **History** shows everything you have downloaded, newest first.
-- The **gear icon** opens settings: output format (M4A, MP3, Opus), preferred metadata and artwork source, and playlist behavior.
+- The **gear icon** opens settings: output format (M4A, MP3, Opus), preferred metadata and artwork source, clipboard auto-fetch, and playlist behavior.
 - Pasting a playlist link (with playlist asking enabled in settings) pops a checklist so you pick exactly which videos to grab, with a search box and a review-each-one mode for per-song metadata control.
 
 ## Updates
