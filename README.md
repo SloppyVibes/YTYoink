@@ -9,18 +9,31 @@
 
 **Every line of this app was written by AI**, with a human directing, testing, and approving each release. That goes for all SloppyVibes projects: 100% AI coded, human steered.
 
-YTYoink is a Windows app that turns YouTube videos into clean, properly tagged audio files, ready for iTunes, your phone, or any music library. Paste a link or search right inside the app, and it handles the rest: downloading, converting, matching real metadata from the iTunes catalog, and embedding cover art.
+YTYoink is a YouTube audio downloader for Windows that takes the metadata as seriously as the download. Most downloaders hand you a file named after the video. YTYoink hands you a finished song: real title, artist, album, year, and genre matched from the iTunes catalog, with proper cover art embedded, ready to drop straight into iTunes, your phone, or any music player.
 
-## Features
+## Downloading
 
-- **Paste a URL and hit Fetch Info.** The app pulls the video, finds the matching song on iTunes, and fills in title, artist, album, year, and genre automatically.
-- **SearchYT.** No link? Search YouTube from inside the app: 100 results with thumbnails, view counts, a length filter (under 4 min, 4 to 20, over 20), and a live filter box to narrow by title or channel. Click a result to fetch it, or open it in your browser first.
-- **Real metadata, your call.** iTunes match wrong? Hit "Wrong match?" and pick from candidates, edit the search, filter by artist, album, or year, pull a full album tracklist, or paste an Apple Music link for songs the store search cannot find.
-- **Cover art done right.** Choose between the iTunes artwork, the YouTube thumbnail, your own image (browse, paste with Ctrl+V, or drag and drop), or none. Hover any artwork for a zoomed preview.
-- **Playlists, tamed.** Optional playlist picker with checkboxes, quick search, shift-click range select, and a review-each-one mode so you approve the metadata for every song in a batch. Auto-generated YouTube Mixes are ignored by default so pasting a link out of a Mix just downloads that one video.
-- **Download history and duplicate warnings.** A history popup remembers everything, and an amber badge warns you when you are about to download something you already grabbed, with the date and filename on hover.
-- **Formats.** M4A by default (plays nice with iTunes and iPhone), plus MP3 and Opus. Opus keeps embedded cover art too.
-- **Turbo mode** skips the metadata stage entirely when you just want the audio fast.
+- **Paste a link and hit Fetch Info**, or hit **SearchYT** and find the song without leaving the app: 100 results with thumbnails and view counts, length filters, and a live search box to narrow by title or channel.
+- **Whole playlists.** Paste a playlist link and get a checklist of every video: tick exactly the ones you want, search within the playlist, shift-click to select ranges, and choose between downloading the batch in one go or reviewing each song's metadata one by one. Auto-generated YouTube Mixes are ignored by default, so a link copied out of a Mix grabs just that one video instead of surprising you with fifty.
+- **Your format.** M4A by default (the iTunes and iPhone sweet spot), MP3, or Opus, which keeps YouTube's original audio untouched with no re-encode. Cover art is embedded in every format, Opus included.
+- **Turbo mode** skips the metadata stage entirely when raw speed is all you need.
+
+## Metadata that actually gets it right
+
+- Every fetch is matched against the **iTunes catalog**, so songs arrive with the same title, artist, album, year, and genre they have in the store, not whatever the video uploader typed.
+- **Wrong match? One click fixes it.** Edit the search, narrow it by artist, album, or year, pull up a full album tracklist and pick the exact track, or paste an Apple Music link for songs the store search cannot find. Batch downloads even remember your album pick for the rest of the playlist.
+- Prefer the video's own info? Flip the source to **YouTube**. Want full control? Tick any field and type your own value.
+
+## Artwork done properly
+
+- Pick your cover per song: the **iTunes artwork**, the **YouTube thumbnail**, or **your own image**, browsed, pasted with Ctrl+V, or dragged straight into the window.
+- Your own pictures are **automatically cropped and sized to standard cover-art resolution**, so they display pixel-perfect in iTunes, on your phone, and in every music app, no editing required.
+- Hover any artwork tile for an enlarged preview before you commit.
+
+## Quality of life
+
+- **Download history** remembers everything, and an amber **!** badge warns you before you download a song you already have, with the date on hover.
+- **Zero maintenance.** The app updates itself on launch and keeps its own tooling (yt-dlp, FFmpeg) current, so it does not quietly rot like most downloaders do.
 
 <p align="center">
 <img src="assets/shot_search.png" alt="SearchYT popup" width="460">
