@@ -103,13 +103,13 @@ We take the "random exe from the internet" problem seriously. What you can check
 - **SHA-256 checksums** are published in every release's notes. After downloading, run `certutil -hashfile YTYoink_setup.exe SHA256` in a terminal and compare: a match proves your file is byte-for-byte the one we built and uploaded.
 - **Every release is scanned on VirusTotal.** Each build is uploaded to [VirusTotal](https://www.virustotal.com) at release time and checked against ~70 antivirus engines; the scan report links are in every release's notes. You are welcome to re-upload and verify yourself.
 <!-- VT:START -->
-**Latest release scan results (v1.1.47):**
+**Latest release scan results (v1.1.48):**
 
 | File | Result | Report |
 |---|---|---|
-| YTYoink_setup.exe | 70 of 75 engines clean | [view scan](https://www.virustotal.com/gui/file/54bfa1e9ae44d70e94f341302f7cc231bf77ce1ae1b3e22914b38440ee3217b8) |
-| YTYoink.exe | 70 of 75 engines clean | [view scan](https://www.virustotal.com/gui/file/fa912e4abb53ce761670c82f4c5b23bdc0e453aff6496888b0c07f2674426dad) |
-| YTYoink_full.zip | 74 of 75 engines clean | [view scan](https://www.virustotal.com/gui/file/03f788c05b79ebf37bbcdc61b0e0e8d40bdabd9e7adc5b0287b27d3f047bf8e0) |
+| YTYoink_setup.exe | 72 of 75 engines clean | [view scan](https://www.virustotal.com/gui/file/af7a6caf16033ba616d517f5222b3cf03f5bcf082c774ad5d1fac20cfca33e5c) |
+| YTYoink.exe | 71 of 75 engines clean | [view scan](https://www.virustotal.com/gui/file/d7664402ac0c8a85425399a36a303e9ad61ef935bc284379e209fe884bb1bb1a) |
+| YTYoink_full.zip | 75 of 75 engines clean | [view scan](https://www.virustotal.com/gui/file/7db779dfb88613e01cb6ab15c1af1c36568dbcddac3b3f5eba181af658a3e253) |
 <!-- VT:END -->
 
 - **About the few detections you may see there:** a handful of machine-learning heuristic engines (and occasionally Defender's cloud model, as generic "Wacatac!ml") flag unsigned Python-packaged apps on pattern alone. It is a well-documented false-positive class: the overwhelming majority of engines, including Kaspersky, BitDefender, ESET, Avast, Sophos, and Malwarebytes, rate every release clean. We file false-positive reports with vendors that misflag.
