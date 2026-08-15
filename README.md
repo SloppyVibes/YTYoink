@@ -58,7 +58,8 @@ Nothing else to configure. Pick a save folder once (pointing it at iTunes' "Auto
 
 The everyday flow is three clicks:
 
-1. **Paste a YouTube link** in the URL box (or hit **SearchYT** and find the song by name, then click a result).
+1. **Paste a YouTube link** in the URL box (or hit **SearchYT** and find the song by name, then click a result). Even easier: copy a YouTube link anywhere, then just click the empty URL box, and the link **pastes itself and starts fetching automatically**. It never overwrites something already typed in the box.
+   - One exception: for the first moments after launch, while the status bar still says it is checking dependencies, fetching waits. If you jump in that fast, the app tells you it is still checking; once the status bar says **Ready.**, click **Fetch Info** and carry on.
 2. **Hit Fetch Info.** The app pulls the video, matches the song on iTunes, and fills in title, artist, album, year, genre, and artwork. Look it over:
    - Wrong song or album? Click **Wrong match?** and pick the right one, or refine the search with artist, album, and year filters:
 
